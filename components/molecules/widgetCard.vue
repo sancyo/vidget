@@ -1,14 +1,21 @@
 <template>
-  <div class="widget-card" @click="changeModalStatus()">
-    <img
-      :src="require(`@/static/${id}/eyecatch.png`)"
-      alt="eye-catch"
-      class="eyecatch"
-    />
-    <div class="card-info">
-      <h2 class="widget-name">{{ name }}</h2>
-      <time class="widget-date">{{ date }}</time>
-    </div>
+  <div class="widget-card">
+    <nuxt-link
+      :to="{
+        name: 'id',
+        params: { id: id },
+      }"
+    >
+      <img
+        :src="require(`@/static/${id}/eyecatch.png`)"
+        alt="eye-catch"
+        class="eyecatch"
+      />
+      <div class="card-info">
+        <h2 class="widget-name">{{ name }}</h2>
+        <time class="widget-date">{{ date }}</time>
+      </div>
+    </nuxt-link>
   </div>
 </template>
 
@@ -34,7 +41,7 @@ export default {
   },
   methods: {
     changeModalStatus() {
-      this.$store.dispatch('changeModalItemsHandler', this.id)
+      this.$store.dispatch('changeDetailItemsHandler', this.id)
     },
   },
 }

@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <widget-card-bundle-setter />
-    <widget-modal-setter />
   </div>
 </template>
 
