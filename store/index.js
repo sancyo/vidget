@@ -38,8 +38,11 @@ export const mutations = {
   },
   // 詳細モーダルに表示する内容を変更
   changeModalItems(state, id) {
+    // モーダルの状態を変更
     state.modalStatus = !state.modalStatus
+    // 引数で渡されたidと一致するオブジェクトを取得
     const result = state.widgetItems.filter((item) => item.id === id)
+    // 代入
     state.modalItems = result
   },
 }
