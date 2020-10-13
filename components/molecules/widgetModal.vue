@@ -14,7 +14,7 @@ export default {
       default: false,
     },
     items: {
-      type: Array,
+      type: Object,
       default: () => {},
     },
   },

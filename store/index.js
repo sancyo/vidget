@@ -13,7 +13,7 @@ export const state = () => ({
   modalStatus: false,
 
   // 詳細モーダルに表示する内容
-  modalItems: [],
+  modalItems: {},
 })
 
 export const getters = {
@@ -43,7 +43,7 @@ export const mutations = {
     // 引数で渡されたidと一致するオブジェクトを取得
     const result = state.widgetItems.filter((item) => item.id === id)
     // 代入
-    state.modalItems = result
+    state.modalItems = result[0]
   },
 }
 
