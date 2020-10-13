@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <widget-card-bundle-setter />
+    <widget-modal-setter />
   </div>
 </template>
 
@@ -11,7 +12,6 @@ export default {}
 <style>
 .container {
   margin: 4rem auto 0 auto;
-  display: flex;
   width: 90%;
   padding: 0 0.8rem;
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="widget-card">
+  <div class="widget-card" @click="changeModalStatus()">
     <img :src="require(`@/static/${id}/eyecatch.png`)" alt="eye-catch" />
     {{ id }}
   </div>
@@ -15,6 +15,11 @@ export default {
     exImg: {
       type: Array,
       default: () => {},
+    },
+  },
+  methods: {
+    changeModalStatus() {
+      this.$store.dispatch('changeModalItemsHandler', this.id)
     },
   },
 }
