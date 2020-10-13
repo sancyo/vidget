@@ -1,0 +1,37 @@
+html {
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro',
+    'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体',
+    'メイリオ', sans-serif;
+  font-size: 62.5%;
+  background-color: #f7f7f9;
+  color: #323232;
+  overflow-y: scroll;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+a:active {
+  text-decoration: none;
+  color: #323232;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1100px;
+}
