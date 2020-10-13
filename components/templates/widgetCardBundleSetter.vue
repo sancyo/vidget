@@ -1,21 +1,7 @@
 <template>
-  <widget-card-bundle :items="widgetContent" />
+  <widget-card-bundle :items="this.$store.getters.getWidgetItems" />
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      widgetContent: [
-        {
-          date: '2020/10/14',
-          name: 'Solid Icon Set',
-          desc: 'シンプルなソリッドアイコン',
-          eyecatch: 'simple-solid-icon',
-          exImg: [],
-        },
-      ],
-    }
-  },
-}
+export default {}
 </script>
