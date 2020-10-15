@@ -8,7 +8,13 @@
         <nuxt-link to="privacy" class="footer-item-link">Privacy</nuxt-link>
       </li>
       <li class="footer-item end">
-        <a href="" class="footer-item-link">Contact</a>
+        <a
+          href="https://forms.gle/aL7MPngT3Ujr5D4Q8"
+          class="footer-item-link"
+          target="_blank"
+        >
+          Contact
+        </a>
       </li>
     </ul>
     <p class="copyright">@Copyright 2020, vidget All rights resrved</p>
