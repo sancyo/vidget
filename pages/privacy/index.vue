@@ -84,7 +84,14 @@
         <h2>お問い合わせ</h2>
         <p>
           当サイトへの、お問い合わせに関しては
-          <span><a href="#" target="_blank" class="link">こちら</a></span>
+          <span
+            ><a
+              href="https://forms.gle/MrfmDoTqMfg5AjfQ6"
+              target="_blank"
+              class="link"
+              >こちら</a
+            ></span
+          >
           にお願いします。
         </p>
       </div>
