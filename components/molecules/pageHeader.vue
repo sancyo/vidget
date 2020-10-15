@@ -1,6 +1,8 @@
 <template>
   <header class="page-header">
-    <img src="@/static/vidget-icon.png" alt="Vidget" class="header-icon" />
+    <nuxt-link to="/">
+      <img src="@/static/vidget-icon.png" alt="Vidget" class="header-icon" />
+    </nuxt-link>
   </header>
 </template>
 
@@ -11,10 +13,10 @@ export default {}
 <style scoped>
 .page-header {
   background: #fff;
-  padding: 0.8rem 2.2rem;
+  padding: 1rem 2.2rem;
   text-align: center;
 }
 .header-icon {
-  width: 40%;
+  width: 30%;
 }
 </style>
