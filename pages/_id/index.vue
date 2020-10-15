@@ -12,7 +12,7 @@
         <div class="dl-btn">ダウンロード</div>
       </div>
       <div class="detail-showcase">
-        <h2 class="heading-2">Showcase</h2>
+        <h2 class="heading-2">Gallery</h2>
         <img
           :src="
             require(`@/static/${this.$route.params.id}/showcase/img-${items.img}.png`)
@@ -74,7 +74,7 @@ export default {
 .dl-btn {
   display: inline-block;
   padding: 0.8rem 1.6rem;
-  font-size: 1.2em;
+  font-size: 1.6em;
   color: #fff;
   text-decoration: none;
   user-select: none;
@@ -96,5 +96,23 @@ export default {
 /* ===== /showcase関連 ===== */
 .showcase-img {
   width: 70%;
+  border-radius: 16px;
+}
+
+/* =========== pc用css ========== */
+@media screen and (min-width: 481px) {
+  .page-header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .header-icon {
+    width: 12em;
+  }
+  .eyecatch {
+    width: 25%;
+  }
+  .showcase-img {
+    width: 300px;
+  }
 }
 </style>
