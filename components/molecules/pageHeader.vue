@@ -1,6 +1,8 @@
 <template>
   <header class="page-header">
-    <img src="@/static/vidget-icon.png" alt="Vidget" class="header-icon" />
+    <nuxt-link to="/">
+      <img src="@/static/vidget-icon.png" alt="Vidget" class="header-icon" />
+    </nuxt-link>
   </header>
 </template>
 
