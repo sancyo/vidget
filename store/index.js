@@ -7,13 +7,7 @@ export const state = () => ({
       name: 'Solid Icon Set',
       desc: `シンプルなソリッドアイコンセットです。`,
       img: 1,
-    },
-    {
-      id: 'test',
-      num: 24,
-      name: 'Solid Icon Set',
-      desc: `シンプルなソリッドアイコンセットです。`,
-      img: 1,
+      link: '',
     },
   ],
 
