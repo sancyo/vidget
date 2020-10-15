@@ -2,7 +2,7 @@
   <footer class="page-footer">
     <ul class="page-footer-inner">
       <li class="footer-item">
-        <a href="" class="footer-item-link">Terms</a>
+        <nuxt-link to="terms" class="footer-item-link">Terms</nuxt-link>
       </li>
       <li class="footer-item">
         <nuxt-link to="privacy" class="footer-item-link">Privacy</nuxt-link>
@@ -28,7 +28,6 @@ export default {}
   display: flex;
   justify-content: center;
   padding: 0.6rem 0;
-  transform: translateX(-0.6rem);
 }
 .footer-item {
   margin-right: 2.4rem;
