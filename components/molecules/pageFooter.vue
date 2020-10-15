@@ -7,7 +7,7 @@
       <li class="footer-item">
         <a href="" class="footer-item-link">Privacy</a>
       </li>
-      <li class="footer-item">
+      <li class="footer-item end">
         <a href="" class="footer-item-link">Contact</a>
       </li>
     </ul>
@@ -28,10 +28,14 @@ export default {}
   display: flex;
   justify-content: center;
   padding: 0.6rem 0;
+  transform: translateX(-0.6rem);
 }
 .footer-item {
-  margin-right: 1.2rem;
+  margin-right: 2.4rem;
   font-size: 1.2rem;
+}
+.end {
+  margin-right: 0 !important;
 }
 .footer-item-link {
   color: #fff;
