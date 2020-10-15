@@ -43,7 +43,7 @@ export default {
 /* ===== common ===== */
 .heading-2 {
   font-size: 2.8rem;
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.2rem;
 }
 .detail-container {
   margin: 0 auto;
@@ -62,7 +62,7 @@ export default {
   width: 65%;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.09);
   border-radius: 8px;
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.2rem;
 }
 .widget-desc {
   font-size: 1.4rem;
@@ -90,7 +90,7 @@ export default {
   text-align: center;
   margin-top: 5.6rem;
   background: #fff;
-  padding: 2.4rem 0;
+  padding: 4.8rem 0;
 }
 
 /* ===== /showcase関連 ===== */

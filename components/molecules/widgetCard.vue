@@ -13,7 +13,7 @@
       />
       <div class="card-info">
         <h2 class="widget-name">{{ name }}</h2>
-        <time class="widget-date">{{ date }}</time>
+        <time class="widget-num">{{ num }} icons</time>
       </div>
     </nuxt-link>
   </div>
@@ -30,9 +30,9 @@ export default {
       type: String,
       default: '',
     },
-    date: {
-      type: String,
-      default: '',
+    num: {
+      type: Number,
+      default: 0,
     },
     exImg: {
       type: Array,

@@ -3,7 +3,7 @@ export const state = () => ({
   widgetItems: [
     {
       id: 'simple-solid-icon',
-      date: '2020/10/14',
+      num: 24,
       name: 'Solid Icon Set',
       desc: `シンプルなソリッドアイコンセットです。`,
       img: 1,

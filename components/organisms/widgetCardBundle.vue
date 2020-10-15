@@ -1,7 +1,7 @@
 <template>
   <ul class="widget-card-bundle">
     <li v-for="item in items" :key="item.id">
-      <widget-card :id="item.id" :name="item.name" :date="item.date" />
+      <widget-card :id="item.id" :name="item.name" :num="item.num" />
     </li>
   </ul>
 </template>
