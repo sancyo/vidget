@@ -8,6 +8,13 @@ export const state = () => ({
       desc: `シンプルなソリッドアイコンセットです。`,
       img: 1,
     },
+    {
+      id: 'test',
+      num: 24,
+      name: 'Solid Icon Set',
+      desc: `シンプルなソリッドアイコンセットです。`,
+      img: 1,
+    },
   ],
 
   // 詳細モーダルに表示する内容

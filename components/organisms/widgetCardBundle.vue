@@ -15,3 +15,17 @@ export default {
   },
 }
 </script>
+<style scoped>
+@media screen and (min-width: 481px) {
+  .widget-card-bundle {
+    display: flex;
+    width: 70%;
+    box-sizing: border-box;
+  }
+  .widget-card-bundle > li {
+    width: 30%;
+    margin-right: 3.2rem;
+    box-sizing: border-box;
+  }
+}
+</style>

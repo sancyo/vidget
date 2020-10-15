@@ -71,4 +71,11 @@ export default {
 .widget-date {
   color: #bbb;
 }
+
+/* ========== pc用css ========== */
+@media screen and (min-width: 481px) {
+  .widget-card {
+    width: 100%;
+  }
+}
 </style>
