@@ -5,7 +5,7 @@
         <a href="" class="footer-item-link">Terms</a>
       </li>
       <li class="footer-item">
-        <a href="" class="footer-item-link">Privacy</a>
+        <nuxt-link to="privacy" class="footer-item-link">Privacy</nuxt-link>
       </li>
       <li class="footer-item end">
         <a href="" class="footer-item-link">Contact</a>
