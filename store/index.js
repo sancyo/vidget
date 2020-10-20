@@ -7,7 +7,8 @@ export const state = () => ({
       name: 'Solid Icon Set',
       desc: `シンプルなソリッドアイコンセットです。`,
       img: 1,
-      link: '',
+      link:
+        'https://www.dropbox.com/sh/mi0ym98rdavmkjx/AAB9_wltufdDJLlLcT0C5v6Za?dl=1',
     },
   ],
 
