@@ -219,4 +219,13 @@ p + p {
   border-radius: 6px;
   line-height: 1.5;
 }
+
+ol {
+  padding: 1.2rem 0 1.2rem 2.4rem;
+}
+
+li {
+  list-style-type: decimal;
+  padding: 0 0 0 1rem;
+}
 </style>

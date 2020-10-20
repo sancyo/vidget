@@ -9,13 +9,15 @@
           class="eyecatch"
         />
         <p class="widget-desc">{{ items.desc }}</p>
-        <div class="dl-btn">ダウンロード</div>
+        <div class="dl-btn">
+          <a :href="items.link" class="dl-btn-link">ダウンロード</a>
+        </div>
       </div>
       <div class="detail-showcase">
         <h2 class="heading-2">Gallery</h2>
         <img
           :src="
-            require(`@/static/${this.$route.params.id}/showcase/img-${items.img}.png`)
+            require(`@/static/${this.$route.params.id}/showcase/img-${items.img}.jpg`)
           "
           alt="showcase"
           class="showcase-img"
@@ -83,6 +85,9 @@ export default {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
   transition: 0.2s ease;
   margin-top: 3.2rem;
+}
+.dl-btn-link {
+  color: #fff;
 }
 
 /* ===== showcase関連 ===== */
