@@ -10,6 +10,15 @@ export const state = () => ({
       link:
         'https://www.dropbox.com/sh/mi0ym98rdavmkjx/AAB9_wltufdDJLlLcT0C5v6Za?dl=1',
     },
+    {
+      id: 'simple-outline-icon',
+      num: 24,
+      name: 'Outline Icon Set',
+      desc: `シンプルなラインアイコンセットです。`,
+      img: 1,
+      link:
+        'https://www.dropbox.com/sh/4rt6l3n36y10hlv/AAB5DrG9holkDxI6oN_7jGSKa?dl=1',
+    },
   ],
 
   // 詳細モーダルに表示する内容

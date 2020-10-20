@@ -17,7 +17,7 @@
         <h2 class="heading-2">Gallery</h2>
         <img
           :src="
-            require(`@/static/${this.$route.params.id}/showcase/img-${items.img}.png`)
+            require(`@/static/${this.$route.params.id}/showcase/img-${items.img}.jpg`)
           "
           alt="showcase"
           class="showcase-img"
